@@ -1,0 +1,13 @@
+Actuator
+http://localhost:8084/actuator/metrics
+http://localhost:8084/actuator/circuitbreakers
+http://localhost:8084/actuator/retries
+http://localhost:8084/actuator/retryevents
+http://localhost:8084/actuator/metrics/resilience4j.retry.calls
+http://localhost:8084/actuator/metrics/resilience4j.retry.calls?tag=kind:successful_with_retry
+
+API call
+http://localhost:8084/catalog/1
+
+Test
+http://localhost:8084/catalog/test
